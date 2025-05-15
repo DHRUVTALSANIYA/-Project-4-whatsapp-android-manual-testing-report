@@ -1,82 +1,93 @@
-# 📱 WhatsApp Web Testing Report
-A detailed manual testing project for the WhatsApp Android application, including test plans, test cases, testing strategies, defect tracking, and final reports
+# PROJECT-4 — WHATSAPP ANDROID MANUAL TESTING REPORT  
+**WhatsApp Android Application – Manual Testing Report**  
+(Platform: Android Mobile App)
 
-🧪 Project Title: WhatsApp – Test Plan & Test Cases
-Created by: Dhruv Talsaniya
-Date: 29/01/2025
+📌 Created during my QA - Manual Tester Internship at Softcolon Technologies
 
-📋 Overview
-This repository contains a comprehensive test plan and detailed test cases for the WhatsApp mobile application, focusing on its core functionalities like chatting, calling, sharing media, and UI components. This testing documentation is part of a QA internship project designed to demonstrate practical testing skills and structured QA processes.
+---
 
-📌 Contents
-Test Plan Document (1. Whatsapp - Test Plan.docx)
+## 📋 Contents
 
-Master Test Case Sheet (2. WhatsApp - Test cases.xlsx)
+✅ **Test Plan** – Strategy, scope, testing phases, and techniques  
+✅ **Test Scenarios** – Real-world features and edge cases covered  
+✅ **Test Cases** – Detailed steps with input, action, expected results  
+✅ **Defect Reports** – Bugs categorized by type and severity  
+✅ **Test Design** – Applied BVA, equivalence partitioning, decision tables  
+✅ **Validation Results** – Pass/fail outcomes and re-testing status
 
-Login Page Test Cases (3. WhatsApp - Login Page - Test case.xlsx)
+---
 
-✅ Scope of Testing
-The testing includes all major WhatsApp features:
+## 🧪 Test Coverage
 
-Registration & OTP Verification
+### 1️⃣ Registration & Authentication
+- ✅ Valid registration with OTP
+- ❌ Invalid or expired OTP handling
+- 🔡 Multi-language support
+- ❓ Help & FAQ feature validation
 
-Multi-language Support
+### 2️⃣ Core Features Testing
+- 🗨️ Chats – Message flow, floating buttons, UI
+- 📞 Calls – Audio/video call log ordering and access
+- 📢 Updates – Status view, posting, and edit features
+- 👥 Communities – Creation, display, and group linking
 
-Chat Window, Calls, Status, Communities
+### 3️⃣ Navigation & UI Checks
+- 🎛️ Header, Footer, Camera, Payment scanner, Search
+- 🔘 Button behavior (chat, update, call, community)
+- 🔄 Order of items (latest to oldest)
+- 🧭 Navigation between tabs and sliders
 
-Floating Buttons, Search, Camera, Payments
+---
 
-Home Page Sliders & Navigation Sections
+## ❌ Excluded from Testing
+- Third-party payment integrations  
+- Camera/microphone hardware testing  
+- Media upload/download  
+- GPS and location-based features  
+- External device connection  
 
-🔍 Excluded Features:
+---
 
-Third-party payment systems
+## 🧠 Testing Techniques Used
+- Equivalence Partitioning  
+- Boundary Value Analysis  
+- Decision Table Testing  
+- State Transition Testing  
 
-Camera/Microphone integration
+---
 
-GPS/Location Services
+## 🐞 Bug Highlights
+- ⚠️ OTP field allowed alphanumeric input – validation missing  
+- ⚠️ Floating button overlap issue on smaller screen resolutions  
+- ⚠️ Status upload button not responsive under poor connectivity  
 
-Media/Contact access
+---
 
-🧪 Testing Strategy
-The testing is structured into multiple phases:
+## 📄 Files Included
 
-Static Testing
+📌 **Test Plan Document** – `1. Whatsapp - Test Plan.docx`  
+📌 **Full Test Case Sheet** – `2. WhatsApp - Test cases.xlsx`  
+📌 **Login Page Test Cases** – `3. WhatsApp - Login Page - Test case.xlsx`  
 
-Smoke & Sanity Testing
+---
 
-Unit & Integration Testing
+## 👤 Executed By  
+**Dhruv Talsaniya**  
+Manual QA Tester, Softcolon Technologies
 
-System Testing (Functional & Non-functional)
+---
 
-Regression, Re-testing, Ad-hoc Testing
+## 🛠️ Tools Used  
+- ✅ Manual Testing  
+- 📱 Android Device  
+- 📊 Excel for documentation and defect tracking  
 
-Globalization/Localization Testing (if needed)
+---
 
-End-to-End User Simulation
+## 📅 Execution Date  
+**29th January 2025**
 
-🧠 Test Design Techniques
-Equivalence Partitioning
+---
 
-Boundary Value Analysis
-
-Decision Table Testing
-
-State Transition Testing
-
-🐞 Defect Reporting
-Defects are logged and tracked in Excel files.
-
-Screenshots and descriptions included.
-
-Bugs are re-tested and covered under regression testing.
-
-👥 Roles & Responsibilities
-Test Manager: Planning, documentation, coordination
-
-Testers: Test case creation, execution, reporting
-
-🗓️ Test Schedule
-Plan creation, execution, and reporting dates to be updated as per the testing cycle.
-
-
+## ✅ Conclusion  
+This manual test report outlines complete functional and UI validations of the WhatsApp Android application. From core login tests to navigation, UI, and chat validations, the report ensures structured and traceable testing with documented issues and improvement areas.
